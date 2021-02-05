@@ -1,6 +1,5 @@
 import serial
 from time import sleep
-import random
 
 uno = serial.Serial(port="COM3", baudrate=115200)
 print("Arduino UNO is connected.\n")
